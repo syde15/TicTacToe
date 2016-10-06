@@ -12,6 +12,9 @@
 		2797675B1D973E20004BDD0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 279767591D973E20004BDD0D /* Main.storyboard */; };
 		2797675D1D973E20004BDD0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2797675C1D973E20004BDD0D /* Assets.xcassets */; };
 		279767601D973E20004BDD0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2797675E1D973E20004BDD0D /* LaunchScreen.storyboard */; };
+		2797676A1D973E57004BDD0D /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = 279767671D973E57004BDD0D /* board.png */; };
+		2797676B1D973E57004BDD0D /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 279767681D973E57004BDD0D /* cross.png */; };
+		2797676C1D973E57004BDD0D /* nought.png in Resources */ = {isa = PBXBuildFile; fileRef = 279767691D973E57004BDD0D /* nought.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		2797675C1D973E20004BDD0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2797675F1D973E20004BDD0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		279767611D973E20004BDD0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		279767671D973E57004BDD0D /* board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = board.png; path = ../../tictactoeimages/board.png; sourceTree = "<group>"; };
+		279767681D973E57004BDD0D /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cross.png; path = ../../tictactoeimages/cross.png; sourceTree = "<group>"; };
+		279767691D973E57004BDD0D /* nought.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nought.png; path = ../../tictactoeimages/nought.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				2797675C1D973E20004BDD0D /* Assets.xcassets */,
 				2797675E1D973E20004BDD0D /* LaunchScreen.storyboard */,
 				279767611D973E20004BDD0D /* Info.plist */,
+				279767671D973E57004BDD0D /* board.png */,
+				279767681D973E57004BDD0D /* cross.png */,
+				279767691D973E57004BDD0D /* nought.png */,
 			);
 			path = TicTacToe;
 			sourceTree = "<group>";
@@ -123,6 +132,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2797676B1D973E57004BDD0D /* cross.png in Resources */,
+				2797676A1D973E57004BDD0D /* board.png in Resources */,
+				2797676C1D973E57004BDD0D /* nought.png in Resources */,
 				279767601D973E20004BDD0D /* LaunchScreen.storyboard in Resources */,
 				2797675D1D973E20004BDD0D /* Assets.xcassets in Resources */,
 				2797675B1D973E20004BDD0D /* Main.storyboard in Resources */,
